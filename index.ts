@@ -45,7 +45,7 @@ function draw() {
   const tileHeight = getTileHeight() + dy;
 
   p.imageMode(p.CENTER);
-  p.translate((tileWidth*level[0].length) / 2, tileHeight);
+  p.translate((tileWidth * level[0].length) / 2, tileHeight);
   for (let y = 0; y < level.length; y++) {
     for (let x = 0; x < level[y].length; x++) {
       p.push();
@@ -56,9 +56,7 @@ function draw() {
   }
 }
 
-function keyPressed() {
-
-}
+function keyPressed() {}
 
 function canGoTo(position: Position): boolean {
   if (position.x >= 0 && position.y >= 0 && position.x < level[0].length && position.y < level.length) {
