@@ -13,7 +13,7 @@ export const dy = 10;
 
 const levelString = `
   Snow+None GrEa+None SnSt+None Gren+None Gren+None
-  Gren+None Gren+None Gren+None Gren+None Gren+None
+  Gren+None Empt+None Gren+None Gren+None Gren+None
   Gren+None Gren+None Gren+None Gren+None Gren+None
   Gren+None Gren+None Gren+None Gren+None Gren+None
   Gren+None Gren+None Gren+None Gren+None GrSu+01Pi`;
