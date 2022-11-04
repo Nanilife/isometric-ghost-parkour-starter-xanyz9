@@ -44,7 +44,7 @@ function draw() {
   const tileWidth = getTileWidth() + dx;
   const tileHeight = getTileHeight() + dy;
 
-  
+  p.imageMode(p.CENTER);
 }
 
 function keyPressed() {
