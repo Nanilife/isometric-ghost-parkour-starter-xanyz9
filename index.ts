@@ -45,6 +45,7 @@ function draw() {
   const tileHeight = getTileHeight() + dy;
 
   p.imageMode(p.CENTER);
+  p.translate((tileWidth*level[0].length) / 2, tileHeight);
 }
 
 function keyPressed() {
