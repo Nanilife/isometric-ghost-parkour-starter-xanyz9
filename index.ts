@@ -12,11 +12,11 @@ export const dx = 70;
 export const dy = 10;
 
 const levelString = `
-  Snow+None GrEa+None SnSt+None Gren+None Gren+None
-  SnSs+None Empt+None Gren+None Gren+None Gren+None
-  Gren+None SnSs+None SnSs+None Wood+None Wood+None
+  Snow+None GrEa+None SnSt+SnTr Gren+None Gren+None
+  SnSs+None Empt+None Gren+None Gren+GrTr Gren+None
+  Gren+SnTr SnSs+None SnSs+None Wood+None Wood+None
   Brdg+None SnBc+None SnSs+None Wood+None SnSs+None
-  Gren+None Gren+None Gren+None Gren+None GrSu+01Pi`;
+  Gren+Bush Gren+Bush Gren+None Gren+Bush GrSu+01Pi`;
 const level = parseLevel(levelString);
 
 new p5((pp: p5) => {
