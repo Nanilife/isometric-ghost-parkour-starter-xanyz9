@@ -15,7 +15,7 @@ const levelString = `
   Snow+None GrEa+None SnSt+None Gren+None Gren+None
   SnSs+None Empt+None Gren+None Gren+None Gren+None
   Gren+None SnSs+None SnSs+None Wood+None Wood+None
-  Gren+None SnBc+None SnSs+None Wood+None SnSs+None
+  Brdg+None SnBc+None SnSs+None Wood+None SnSs+None
   Gren+None Gren+None Gren+None Gren+None GrSu+01Pi`;
 const level = parseLevel(levelString);
 
