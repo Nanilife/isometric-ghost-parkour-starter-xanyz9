@@ -46,6 +46,11 @@ function draw() {
 
   p.imageMode(p.CENTER);
   p.translate((tileWidth*level[0].length) / 2, tileHeight);
+  for (let y = 0; y < level.length; y++) {
+    for (let x = 0; x < level[y].length; x++) {
+      
+    }
+  }
 }
 
 function keyPressed() {
