@@ -8,6 +8,8 @@ export let p: p5;
 export let images: p5.Image;
 let font: p5.Font;
 
+const ghost = new Ghost(GhostFrame.Orange, 0, 0);
+
 export const dx = 70;
 export const dy = 10;
 
