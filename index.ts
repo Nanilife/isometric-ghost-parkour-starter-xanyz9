@@ -12,7 +12,7 @@ export const dx = 70;
 export const dy = 10;
 
 const levelString = `
-  GrEn+None Gren+None Gren+None Gren+None Gren+None
+  Gren+None Gren+None Gren+None Gren+None Gren+None
   Gren+None Gren+None Gren+None Gren+None Gren+None
   Gren+None Gren+None Gren+None Gren+None Gren+None
   Gren+None Gren+None Gren+None Gren+None Gren+None
