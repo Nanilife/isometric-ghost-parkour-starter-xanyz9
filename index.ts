@@ -52,7 +52,10 @@ function draw() {
     for (let x = 0; x < level[y].length; x++) {
       p.push();
       p.translate(((x - y) * tileWidth) / 2, ((x + y) * tileHeight) / 2);
-      level[y][x].draw();
+      level[y][x].draw(); 
+      if (x === ghost.position.x && y === ghost.position.y) {
+        ghost.draw();
+      }
       p.pop();
     }
   }
